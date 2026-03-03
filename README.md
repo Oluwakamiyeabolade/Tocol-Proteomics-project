@@ -227,18 +227,3 @@ relaxing DEG thresholds (deg_padj_cutoff, deg_logfc_cutoff)
 
 relaxing GSEA cutoffs (gsea_pvalue_cutoff)
 ```r
-
-
-**## Citation / Acknowledgements
-**
-This analysis uses:
-
-clusterProfiler for GO and GSEA
-
-ReactomePA for Reactome ORA/GSEA
-
-org.Mm.eg.db for mouse gene annotations
-
-**## Author
-**
-Pipeline assembled and customized for DIA proteomics multi-contrast analysis.
