@@ -81,8 +81,10 @@ The script runs:
 
 ```r
 webshot::install_phantomjs()
+```r
 
-## How to Run
+**### How to Run**
+
 Put your Excel file in the repo root:
 
 CompadreCM_20250520_01_DIA_results.xlsx
@@ -93,7 +95,7 @@ source("analysis_pipeline.R")
 
 Outputs will be written into the folders listed in Project Structure.
 
-Key Parameters You Can Edit
+Key Parameters You Can Edit:
 
 At the top of the script under 0) CONFIG:
 
@@ -103,7 +105,7 @@ deg_padj_cutoff (default: 0.05)
 
 deg_logfc_cutoff (default: 1)
 
-ORA thresholds
+ORA thresholds:
 
 ora_pvalue_cutoff (default: 0.05)
 
@@ -117,7 +119,7 @@ gsea_prefilter_logfc (default: 0.2)
 
 gsea_prefilter_padj (default: 0.2)
 
-Heatmap
+Heatmap:
 
 topN_heatmap (default: 50)
 
