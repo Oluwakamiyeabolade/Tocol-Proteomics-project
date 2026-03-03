@@ -13,15 +13,16 @@ This repository contains an **R-based analysis pipeline** for DIA proteomics res
 > Annotation mapping: **UniProt → Entrez** via `org.Mm.eg.db`
 
 ---
+## Project Structure
+
+After running the pipeline, the following folders are created automatically:
+
 01_volcano/ # Volcano plots (HTML + PNG) per contrast
 02_DEG_tables_IPA/ # FULL results + DEG-only tables + IPA/STRING lists
 03_heatmap/ # Heatmap image
 04_ORA_enrichment/ # ORA GO + Reactome results and combined plots
 05_GSEA_enrichment/ # GSEA GO + Reactome results and combined plots
 06_DEG_overlap/ # UpSet overlap plot + DEG counts table
-## Project Structure
-
-After running the pipeline, the following folders are created automatically:
 
 ---
 
@@ -226,8 +227,8 @@ relaxing DEG thresholds (deg_padj_cutoff, deg_logfc_cutoff)
 
 relaxing GSEA cutoffs (gsea_pvalue_cutoff)
 
-## Citation / Acknowledgements
-
+**## Citation / Acknowledgements
+**
 This analysis uses:
 
 clusterProfiler for GO and GSEA
@@ -236,6 +237,6 @@ ReactomePA for Reactome ORA/GSEA
 
 org.Mm.eg.db for mouse gene annotations
 
-## Author
-
+**## Author
+**
 Pipeline assembled and customized for DIA proteomics multi-contrast analysis.
