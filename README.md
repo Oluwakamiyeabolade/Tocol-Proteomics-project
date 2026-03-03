@@ -82,9 +82,8 @@ The script runs:
 
 ```r
 webshot::install_phantomjs()
-```r
 
-**### How to Run**
+## How to Run
 
 Put your Excel file in the repo root:
 
