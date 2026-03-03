@@ -239,5 +239,5 @@ org.Mm.eg.db for mouse gene annotations
 
 ### Author
 
-Rachael Aboladeee
+Rachael Abolade
 
