@@ -1,5 +1,5 @@
 ############################################################
-# Proteomics 6-contrast analysis pipeline (GitHub-ready)
+# Proteomics 6-contrast analysis pipeline
 # - Interactive volcano plots (HTML + PNG)
 # - DEG tables (IPA/STRING-ready) with UniProtID, UniProtName, ProteinName
 # - Heatmap (Top-N variable DEPs across contrasts, using DEG-only proteins)
@@ -649,5 +649,6 @@ if (length(deg_sets) >= 2) {
 } else {
   message("⚠️ Not enough DEG sets to draw UpSet.")
 }
+
 
 cat("\n✅ Pipeline finished.\n")
