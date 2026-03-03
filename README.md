@@ -225,4 +225,19 @@ Try:
 relaxing DEG thresholds (deg_padj_cutoff, deg_logfc_cutoff)
 
 relaxing GSEA cutoffs (gsea_pvalue_cutoff)
+```
+
+### Citation / Acknowledgements
+
+This analysis uses:
+
+clusterProfiler for GO and GSEA
+
+ReactomePA for Reactome ORA/GSEA
+
+org.Mm.eg.db for mouse gene annotations
+
+### Author
+
+Rachael Aboladeee
 
